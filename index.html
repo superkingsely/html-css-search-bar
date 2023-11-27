@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Make your custom search here</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="app">
+        <form action="https://www.google.com" method="get" class="search-bar">
+            <button type="submit">
+                <i class="ri-search-line"></i>
+            </button>
+            <!-- for ur search value to appear on the goole search give the name attribute a string value of any-->
+            <input type="text" placeholder="Make your Search here" name="query">
+        </form>
+    </div>
 </body>
 </html>
