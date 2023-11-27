@@ -32,8 +32,10 @@
     outline: none;
     color: aliceblue;
     font-size: 20px;
+    
     /* padding: 10px 8px; */
 }
+
 ::placeholder{
     color: rgba(201, 201, 201, 0.24);
 }
@@ -60,3 +62,4 @@
 .search-bar:focus-within{
     border: 2px solid white;
 }
+/* probs with the keyboard focuasable */
